@@ -14,9 +14,9 @@
 
 .PHONY:	build push
 
-PREFIX = quay.io/fluentd_elasticsearch
-IMAGE = fluentd
-TAG = v3.0.3
+PREFIX = niklaskhf
+IMAGE = fluentd-elasticsearch
+TAG = v3.0.4
 
 build:
 	docker build --tag ${PREFIX}/${IMAGE}:${TAG} .
