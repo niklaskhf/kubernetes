@@ -16,7 +16,7 @@
 
 PREFIX = niklaskhf
 IMAGE = fluentd-elasticsearch
-TAG = v3.0.4
+TAG = v3.0.5
 
 build:
 	docker build --tag ${PREFIX}/${IMAGE}:${TAG} .
